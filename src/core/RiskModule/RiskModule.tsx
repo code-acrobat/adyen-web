@@ -84,7 +84,8 @@ export default class RiskElement extends BaseElement<RiskModuleProps> {
     }
 
     public cleanUp = () => {
-        if (this.nodeRiskContainer) this.nodeRiskContainer.remove();
+        const element = this.nodeRiskContainer;
+        if (element && element.parentNode) element.parentNode.removeChild(element);
     };
 
     componentWillUnmount() {
