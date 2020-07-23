@@ -11,6 +11,8 @@ To run this project, **create** a `.env` file on your project's root folder foll
 ```
 MERCHANT_ACCOUNT=MyMerchantAccount
 CHECKOUT_APIKEY=MY_CHECKOUT_API_KEY
+BASICAUTH_USER=MY_WEBSERVICE_USER
+BASICAUTH_PASS=MY_WEBSERVICE_PASS
 ```
 
 These variables can be found in Adyen Customer Area. For more information, visit our [Get started with Adyen guide](https://docs.adyen.com/payments-essentials/get-started-with-adyen).
